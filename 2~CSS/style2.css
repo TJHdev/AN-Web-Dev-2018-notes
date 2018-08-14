@@ -1,0 +1,13 @@
+body {
+  background-image: url('backgroundimage.jpg');
+  background-size: cover;
+}
+
+h2 {
+  color: blue;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}

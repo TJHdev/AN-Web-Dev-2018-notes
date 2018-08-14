@@ -1,0 +1,43 @@
+* {
+  text-align: right;
+}
+
+body {
+  
+  background-image: linear-gradient(rgba(255, 176, 170, .4), rgba(255, 176, 170, .4)), url('backgroundimage.jpg');
+  background-size: cover;
+  
+}
+
+h2 > p {
+  color: red;
+  text-align: center;
+  border: 5px solid rgb(255, 176, 170);
+  cursor: pointer;
+}
+
+p {
+  color: grey !important;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.webtext:last-child {
+  border: 5px dashed green;
+  color: black;
+}
+
+.active {
+  color: red;
+}
+
+#div1 {
+  background: rgba(0, 0, 255, 0.2);
+}
+
+#div2 {
+  background: rgba(0, 255, 255, 0.2);
+}
